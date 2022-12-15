@@ -1,0 +1,30 @@
+.skills-mobile-section{
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  h1{
+    margin-bottom: 1rem;
+  }
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-mobile-c {
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.683);
+  color: black;
+  width: 6rem; 
+  height: 1.8rem;
+  border-radius: 4px;
+  padding: 4px 0 0 0;
+  p{
+    text-transform: capitalize;
+    text-align: center;
+  }
+}

@@ -1,0 +1,38 @@
+.hero-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50vh;
+  img{ 
+    position: absolute;
+    z-index: -2;
+    opacity: 0.06;
+    height: 150%;
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+    line-height: 3rem;
+  }
+  p{
+    position: absolute;
+    right: 4rem;
+    bottom: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+    height: 35vh;
+    h2{
+      line-height: 2rem;
+    }
+  }
+}

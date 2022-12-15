@@ -1,0 +1,43 @@
+.about-container {
+  background-color: rgb(237, 237, 237);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  gap: 3rem;
+  h1 {
+    border-bottom: 3px solid black;
+  }
+  p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .about-container{
+    height: 30vh;
+    padding: 3rem 2rem;
+    gap: 2.3rem;
+    h1{
+      font-size: 1.6rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-container {
+    height: 35vh;
+    h1{
+      font-size: 1.4rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

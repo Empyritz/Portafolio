@@ -1,0 +1,38 @@
+.left {
+  left: 5rem;
+}
+.right {
+  right: 5rem;
+}
+.arrow-container {
+  top: 69%;
+  position: absolute;
+  svg{
+    // z-index: 20;
+    cursor: pointer;
+    transform: scale(2);
+  }
+  // width: 200px;
+  // height: 100px;
+  // background-color: white;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  .arrow-container{
+    top: 82%;
+    // color: black;
+  }
+  .left {
+    left: 4rem;
+  }
+  .right { 
+    right: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .arrow-container {
+    top: 90%;
+  }
+}
