@@ -63,7 +63,7 @@ export const projectsList = [
     id: 7,
     title: 'Chat App',
     description: 'Chat App where you can register your account and talk with others people in real time. Using socket.io to send the mmessages in real time and then storage them in mongoDB if you want to open the conversation antoher day.',
-    libraries: ['react', 'react-router<<', 'socket.io', 'express', 'mongosh'],
+    libraries: ['react', 'react-router', 'socket.io', 'express', 'mongosh'],
     images: [chatApp],
     source: '',
   },
@@ -78,7 +78,7 @@ export const projectsList = [
   {
     id: 9,
     title: 'Acordion',
-    description: 'Drinsk app that display a lot of drinks using an API. You can search by name and then calls the api inmediatelly. When you click one it display antoher page with details of that drink',
+    description: 'List with hidden information with interaction to show or remove the card',
     libraries: ['react'],
     images: [acordion],
     source: '',
@@ -86,8 +86,8 @@ export const projectsList = [
   {
     id: 10,
     title: 'Todo-List',
-    description: 'Drinsk app that display a lot of drinks using an API. You can search by name and then calls the api inmediatelly. When you click one it display antoher page with details of that drink',
-    libraries: ['react'],
+    description: 'App of Todo-List where you can add, edit, check, remove your items and save it in local storage and observe the changes maked to advise to other window to relaod',
+    libraries: ['react', 'react-router'],
     images: [todo],
     source: '',
   },

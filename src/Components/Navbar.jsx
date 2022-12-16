@@ -61,13 +61,13 @@ function Navbar (){
 
   const handleClickMenu = (element) => {
     if(element === 'about'){
-      window.scrollTo(0, aboutRef.current)
+      window.scrollTo({top: aboutRef.current, behavior: 'smooth'})
     }else if(element === 'projects'){
-      window.scrollTo(0, projectsRef.current)
+      window.scrollTo({top: projectsRef.current, behavior: 'smooth'})
     }else if(element === 'skills'){
-      window.scrollTo(0, skillsRef.current)
+      window.scrollTo({top: skillsRef.current, behavior: 'smooth'})
     }else if(element === 'contact'){
-      window.scrollTo(0, contactRef.current)
+      window.scrollTo({top: contactRef.current, behavior: 'smooth'})
     }
   }
 
