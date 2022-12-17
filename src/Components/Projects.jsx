@@ -55,7 +55,7 @@ function Projects() {
       }else{
         hoverRightRef.current.style.display = 'block'
       }
-      hoverRightRef.current.style.left = `calc(86vw + ${hoverMoveRight}px`
+      hoverRightRef.current.style.left = `calc(80vw + ${hoverMoveRight}px`
       hoverLeftRef.current.style.left = `${hoverMoveLeft}px`
     }else{
       // console.log('menos')

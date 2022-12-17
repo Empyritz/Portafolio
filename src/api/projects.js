@@ -25,7 +25,7 @@ export const projectsList = [
     description: 'Game app based on tenzie, iterates over the array of numbers and return the same number if was clicked and finally checking if all the numbers in array are the same.',
     libraries: ['react'],
     images: [tenzie],
-    source: '',
+    source: 'https://github.com/Empyritz/React/tree/Tenzies',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const projectsList = [
     description: 'Movie display app, through an api it shows a preview of movies of the moment, you can search by category and by name. You can like the movies so can have a favorite list movies. Maked a reload of the movies in search to display more only scrolling down (pagination).',
     libraries: [''],
     images: [movies],
-    source: '',
+    source: 'https://github.com/Empyritz/Api-Rest-Javascript',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const projectsList = [
     description: 'My previous prtafolio maked from a youtube video, wich I used to practice my web animations skills',
     libraries: ['react', 'react-router'],
     images: [portafolio],
-    source: '',
+    source: 'https://github.com/Empyritz/prev-portafolio',
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const projectsList = [
     description: 'An app based on CRUD elements. Created for make your grocery list, you can add items, remove or edited.',
     libraries: ['react'],
     images: [grocery],
-    source: '',
+    source: 'https://github.com/Empyritz/React-Projects/tree/GroceryBud',
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const projectsList = [
     description: 'An component of an E-commerce where you can see your items in the shopcart, add more than one or remove one or all of them. The items number and the price change automatically using redux-toolkit to manage the storage and getting the information to display dinamically.',
     libraries: ['react', 'redux-toolkit'],
     images: [toolkitBag],
-    source: '',
+    source: 'https://github.com/Empyritz/React-Redux/tree/Toolkit',
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ export const projectsList = [
     description: 'Chat App where you can register your account and talk with others people in real time. Using socket.io to send the mmessages in real time and then storage them in mongoDB if you want to open the conversation antoher day.',
     libraries: ['react', 'react-router', 'socket.io', 'express', 'mongosh'],
     images: [chatApp],
-    source: '',
+    source: 'https://github.com/Empyritz/real-time-chat-app',
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ export const projectsList = [
     description: 'Drinsk app that display a lot of drinks using an API. You can search by name and then calls the api inmediatelly. When you click one it display antoher page with details of that drink',
     libraries: ['react'],
     images: [drinks],
-    source: '',
+    source: 'https://github.com/Empyritz/React-Projects/tree/Cocktails',
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ export const projectsList = [
     description: 'List with hidden information with interaction to show or remove the card',
     libraries: ['react'],
     images: [acordion],
-    source: '',
+    source: 'https://github.com/Empyritz/React-Projects/tree/Acordion',
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ export const projectsList = [
     description: 'App of Todo-List where you can add, edit, check, remove your items and save it in local storage and observe the changes maked to advise to other window to relaod',
     libraries: ['react', 'react-router'],
     images: [todo],
-    source: '',
+    source: 'https://github.com/Empyritz/Todo-List',
   },
 ]
 

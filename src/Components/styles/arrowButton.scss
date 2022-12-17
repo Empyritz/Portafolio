@@ -7,6 +7,7 @@
 .arrow-container {
   top: 69%;
   position: absolute;
+  transition: 0.3s ease-in-out;
   svg{
     // z-index: 20;
     cursor: pointer;
@@ -16,6 +17,9 @@
   // height: 100px;
   // background-color: white;
   color: white;
+  &:hover{
+    opacity: 0.8;
+  }
 }
 
 @media screen and (max-width: 768px){

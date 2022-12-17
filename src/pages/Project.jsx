@@ -7,6 +7,7 @@ import './styles/project.scss'
 import Particles from 'react-tsparticles'
 import particlesConfig from './config/particles.json'
 import { loadFull } from "tsparticles";
+import { RiHomeLine } from 'react-icons/ri'
 
 const Project = () => {
   const navigate = useNavigate()
@@ -30,7 +31,7 @@ const Project = () => {
   console.log(id)
   return (
     <div className='project'>
-      <div  className='button-back' onClick={handleBackClick}/>
+      <div  className='button-back' onClick={handleBackClick}><RiHomeLine /></div>
       <div className='image-c'>
         <img src={images[0]} alt="" />
       </div>

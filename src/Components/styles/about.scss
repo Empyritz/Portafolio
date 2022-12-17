@@ -11,7 +11,7 @@
   }
   p{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
   }
 }
@@ -30,14 +30,14 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .about-container {
     height: 35vh;
     h1{
       font-size: 1.4rem;
     }
     p {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
   }
 }
